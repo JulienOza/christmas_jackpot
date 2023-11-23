@@ -8,8 +8,8 @@ function GamePage() {
     <>
       <div className="gameContainer">
         <Navbar />
-        <Routourne />
         <img src={CoinMachine} className="coinMachine" />
+        <Routourne />
       </div>
     </>
   );

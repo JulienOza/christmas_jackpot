@@ -1,0 +1,11 @@
+.gameContainer {
+display: block;
+
+}
+.coinMachine{
+width: 60vw;
+height: 90vh;
+margin-top: 8vh;
+margin-left: 7vw
+
+}

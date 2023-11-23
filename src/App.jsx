@@ -1,14 +1,12 @@
-import './App.css'
-import HomePage from './components/HomePage'
+import "./App.css";
+import Navbar from "./components/NavBar/Navbar";
 
 function App() {
-
-
   return (
     <>
-      <HomePage />
+      <Navbar />
     </>
-  )
+  );
 }
 
 export default App;

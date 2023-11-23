@@ -141,10 +141,6 @@ export default class Demo extends React.Component {
             play={this.state.play}
             callback={this.callback}
           />
-
-          <button id="play-button" onClick={() => this.playEvent()}>
-            Play
-          </button>
         </React.Fragment>
       </div>
     );

@@ -19,9 +19,9 @@ function PopUpFinal({ img, slogan, img3, className, classNameBubble, img2, class
           setPopupMessage(
             <article className="message">
               <h1 className="finalmessage">{slogan}</h1>
-              <img src={img} className={`${className}`} alt="Zlatan Ibrahimovic en train de lire" />
-              <img src={img2} className={`${classNameThird}`} alt="Zlatan Ibrahimovic en train de lire" />
-              <img src={img3} className={`${classNameBubble}`} alt="Zlatan Ibrahimovic parle" />
+              <img src={img} className={`${className}`} alt="" />
+              <img src={img2} className={`${classNameThird}`} alt="" />
+              <img src={img3} className={`${classNameBubble}`} alt="" />
               <button type="button" aria-label="Boutton pour fermer la pop-up" className="closeButton" onClick={() => setPopupMessage("")}>
                 X
               </button>

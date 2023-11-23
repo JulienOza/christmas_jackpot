@@ -1,0 +1,27 @@
+.welcomeContainer{
+    margin-left: 17vw;
+    width: 60vw;
+    height: 98vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(src/assets/cadre.png);
+    background-size: cover; 
+}
+
+.welcomeTitle{
+    margin-top: 25vh;
+
+}
+.description{
+    color: white;
+    width: 25vw;
+    text-align: center;
+}
+
+.playButton{
+    width: 15vw;
+    margin-top: -8vh;
+}

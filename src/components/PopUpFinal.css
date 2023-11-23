@@ -1,0 +1,349 @@
+.message {
+  position: absolute;
+  background-color: white;
+  border: 5px solid #bc1515;
+  border-radius: 50px;
+  width: 70vw;
+  height: 70vh;
+  top: 20%;
+  left: 15%;
+}
+
+.finalmessage {
+  position: absolute;
+  color: black;
+  font-size: 2.3vw;
+  margin-inline: 2vw;
+  top: 2vw;
+}
+
+.jcvd {
+  width: 40vw;
+  position: absolute;
+  left: 19%;
+  bottom: 2%;
+  animation: fadeIn 0.5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0.5;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.bolsonaro {
+  width: 47vw;
+  position: absolute;
+  left: 19%;
+  bottom: 2%;
+  animation: fadeIn 0.5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0.5;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.macron {
+  width: 45vw;
+  position: absolute;
+  left: 13%;
+  bottom: 2%;
+  animation: fadeIn 0.5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0.5;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.ribery {
+  width: 45vw;
+  position: absolute;
+  left: 13%;
+  bottom: 2%;
+  animation: fadeIn 0.5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0.5;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.aya {
+  width: 32vw;
+  position: absolute;
+  left: 20%;
+  bottom: 2%;
+  animation: fadeIn 0.5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0.5;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.macronBubble {
+  position: absolute;
+  width: 15vw;
+  right: 30%;
+  top: 15.5%;
+  /* Définissez la durée totale de l'animation à 10 secondes */
+  animation: fadeIn 5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.ayaBubble {
+  position: absolute;
+  width: 24vw;
+  right: 23%;
+  bottom: 38%;
+  /* Définissez la durée totale de l'animation à 10 secondes */
+  animation: fadeIn 5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.bolsonaroBubble {
+  position: absolute;
+  width: 15vw;
+  right: 20%;
+  bottom: 26%;
+  /* Définissez la durée totale de l'animation à 10 secondes */
+  animation: fadeIn 5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.jcvdBubble {
+  position: absolute;
+  width: 15vw;
+  left: 35%;
+  bottom: 5%;
+  /* Définissez la durée totale de l'animation à 10 secondes */
+  animation: fadeIn 4s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.bubbleRibery {
+  position: absolute;
+  width: 15vw;
+  left: 20%;
+  top: 23%;
+  /* Définissez la durée totale de l'animation à 10 secondes */
+  animation: fadeIn 5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.zlatan {
+  width: 45vw;
+  position: absolute;
+  left: 15%;
+  bottom: 2%;
+  animation: fadeIn 0.5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0.5;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.speak {
+  position: absolute;
+  width: 20vw;
+  left: 15%;
+  top: 23%;
+  /* Définissez la durée totale de l'animation à 10 secondes */
+  animation: fadeIn 5s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.modesty {
+  width: 20vw;
+  position: absolute;
+  top: 18%;
+  right: 15%;
+  /* Définissez la durée totale de l'animation à 10 secondes */
+  animation: fadeIn 3s;
+}
+
+/* Définissez les étapes de l'animation avec @keyframes */
+@keyframes fadeIn {
+  /* Définissez l'opacité à 0% au début */
+  0% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% après 5 secondes */
+  50% {
+    opacity: 0;
+  }
+  /* Définissez l'opacité à 100% à la fin de l'animation */
+  100% {
+    opacity: 1;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  height: 3vh;
+  width: 2vw;
+  top: 2vw;
+  right: 2vw;
+  padding: 0.2vw;
+  background-color: #bc1515;
+  border-radius: 200px;
+  font-size: 1vw;
+}

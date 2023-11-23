@@ -1,4 +1,5 @@
 import Navbar from "../components/NavBar/Navbar";
+
 import PopUpFinal from "./PopUpFinal";
 import RiberyManchot from "../assets/RiberyManchot.png";
 import RiberySpeak from "../assets/RiberySpeak.png";
@@ -13,6 +14,9 @@ import BolsonaroPop from "../assets/BolsonaroPop.png";
 import BolsonaroBubble from "../assets/BolsonaroBubble.png";
 import AyaNaka from "../assets/Aya.jpeg";
 import AyaBubble from "../assets/AyaBubble.png";
+import PopUpFinal from "./PopUpFinal/PopUpFinal";
+import CoinMachine from "../assets/coinMachine.png";
+import "./GamePage.css"
 
 const Ribery = {
   name: "Ribéry",
@@ -82,8 +86,9 @@ const Aya = {
 
 function GamePage() {
   return (
-    <>
+    <div className="gameContainer">
       <Navbar />
+    <img src={CoinMachine} className="coinMachine"/>
       <PopUpFinal
         img={Ribery.img}
         img2={Ribery.img2}
@@ -120,6 +125,9 @@ function GamePage() {
       />
       <PopUpFinal img={Aya.img} img2={Aya.img2} slogan={Aya.slogan} img3={Aya.img3} className={Aya.className} classNameBubble={Aya.classNameBubble} />
     </>
+     
+
+    
   );
 }
 

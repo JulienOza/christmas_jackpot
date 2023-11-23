@@ -1,27 +1,30 @@
-.welcomeContainer{
-    margin-left: 17vw;
-    width: 60vw;
-    height: 98vh;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url(src/assets/cadre.png);
-    background-size: cover; 
+.welcomeContainer {
+  margin-left: 17vw;
+  width: 60vw;
+  height: 98vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(src/assets/cadre.png);
+  background-size: cover;
 }
 
-.welcomeTitle{
-    margin-top: 25vh;
-
+.welcomeTitle {
+  margin-top: 25vh;
 }
-.description{
-    color: white;
-    width: 25vw;
-    text-align: center;
+.description {
+  color: white;
+  width: 25vw;
+  text-align: center;
 }
 
-.playButton{
-    width: 15vw;
-    margin-top: -8vh;
+.playButton {
+  width: 15vw;
+  margin-top: -8vh;
+}
+
+.playLink {
+  z-index: 1;
 }

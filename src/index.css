@@ -1,9 +1,1 @@
-body,
-html {
-  min-height: 100%;
-}
 
-body {
-  background: url(../src/assets/background.png) center center;
-  background-size: cover;
-}

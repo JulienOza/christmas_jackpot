@@ -1,12 +1,8 @@
-import Snow from "./components/Snow/Snow";
+import { Outlet } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <Snow />
-    </>
-  );
+  return <Outlet />;
 }
 
 export default App;

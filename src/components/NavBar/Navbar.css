@@ -1,0 +1,16 @@
+.mainHeader {
+  display: flex;
+  background-color: #bc1515;
+  height: 15vh;
+  position: absolute;
+  top: 0;
+}
+
+.mainTitle {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  color: white;
+  font-size: 4vw;
+  align-items: center;
+}

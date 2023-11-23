@@ -1,11 +1,29 @@
 .gameContainer {
-display: block;
-
+  /* align-content: center;
+  box-sizing: border-box; */
 }
-.coinMachine{
-width: 60vw;
+.coinMachine {
+  /* width: 60vw;
 height: 90vh;
 margin-top: 8vh;
-margin-left: 7vw
+margin-left: 7vw */
 
+  width: 720px;
+  height: auto;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slot-machine {
+  position: fixed;
+  top: 41%;
+  left: 49.5%;
+  transform: translate(-50%, -50%) scale(0.66);
+  z-index: 1;
+}
+
+.mainheader {
+    position: fixed;
 }

@@ -7,6 +7,7 @@
   height: 70vh;
   top: 20%;
   left: 15%;
+  z-index: 2;
 }
 
 .finalmessage {
@@ -15,6 +16,7 @@
   font-size: 2.3vw;
   margin-inline: 2vw;
   top: 2vw;
+  z-index: 2;
 }
 
 .jcvd {
@@ -23,6 +25,7 @@
   left: 19%;
   bottom: 2%;
   animation: fadeIn 0.5s;
+  z-index: 2;
 }
 
 /* Définissez les étapes de l'animation avec @keyframes */
@@ -46,6 +49,7 @@
   position: absolute;
   left: 19%;
   bottom: 2%;
+  z-index: 2;
   animation: fadeIn 0.5s;
 }
 
@@ -70,6 +74,7 @@
   position: absolute;
   left: 13%;
   bottom: 2%;
+  z-index: 2;
   animation: fadeIn 0.5s;
 }
 
@@ -94,6 +99,7 @@
   position: absolute;
   left: 13%;
   bottom: 2%;
+  z-index: 2;
   animation: fadeIn 0.5s;
 }
 
@@ -118,6 +124,7 @@
   position: absolute;
   left: 20%;
   bottom: 2%;
+  z-index: 2;
   animation: fadeIn 0.5s;
 }
 
@@ -142,6 +149,7 @@
   width: 15vw;
   right: 30%;
   top: 15.5%;
+  z-index: 2;
   /* Définissez la durée totale de l'animation à 10 secondes */
   animation: fadeIn 5s;
 }
@@ -167,6 +175,7 @@
   width: 24vw;
   right: 23%;
   bottom: 38%;
+  z-index: 2;
   /* Définissez la durée totale de l'animation à 10 secondes */
   animation: fadeIn 5s;
 }
@@ -192,6 +201,7 @@
   width: 15vw;
   right: 20%;
   bottom: 26%;
+  z-index: 2;
   /* Définissez la durée totale de l'animation à 10 secondes */
   animation: fadeIn 5s;
 }
@@ -217,6 +227,7 @@
   width: 15vw;
   left: 35%;
   bottom: 5%;
+  z-index: 2;
   /* Définissez la durée totale de l'animation à 10 secondes */
   animation: fadeIn 4s;
 }
@@ -242,6 +253,7 @@
   width: 15vw;
   left: 20%;
   top: 23%;
+  z-index: 2;
   /* Définissez la durée totale de l'animation à 10 secondes */
   animation: fadeIn 5s;
 }
@@ -267,6 +279,7 @@
   position: absolute;
   left: 15%;
   bottom: 2%;
+  z-index: 2;
   animation: fadeIn 0.5s;
 }
 
@@ -291,6 +304,7 @@
   width: 20vw;
   left: 15%;
   top: 23%;
+  z-index: 2;
   /* Définissez la durée totale de l'animation à 10 secondes */
   animation: fadeIn 5s;
 }
@@ -316,6 +330,7 @@
   position: absolute;
   top: 18%;
   right: 15%;
+  z-index: 2;
   /* Définissez la durée totale de l'animation à 10 secondes */
   animation: fadeIn 3s;
 }

@@ -9,3 +9,18 @@ margin-top: 8vh;
 margin-left: 7vw
 
 }
+  
+  .bar {
+    position: absolute;
+    top: 31%;
+    right:38.1%;
+    width:5vw;
+
+    transition: transform 0.5s ease; 
+    transform-origin: bottom center; 
+  }
+  
+  .handleBar.clicked .bar {
+    transform: rotateX(130deg);
+  }
+  

@@ -7,9 +7,8 @@ function HomePage() {
       <h2 className="welcomeTitle">Bienvenue sur le Jackpot de Noël!!!</h2>
       <p className="description">
 
-        Le jackpot de Noël vous permet d'organiser un "secret Santa" vous
-        attribuant au hasard un cadeau à offrir et une personne à qui offrir ce
-        présent. Cliquez sur le bouton PLAY pour commencer
+        Le jackpot de Noël vous permet d'organiser un "secret Santa" en vous
+        attribuant aléatoirement un cadeau à offrir et une personne à qui l'offrir. Cliquez sur le bouton PLAY pour commencer
       </p>
       <Link className="playLink" to="/GamePage">
         <img

@@ -1,4 +1,5 @@
 import Navbar from "../components/NavBar/Navbar";
+import {useState} from "react";
 
 import PopUpFinal from "./PopUpFinal";
 import RiberyManchot from "../assets/RiberyManchot.png";
@@ -16,6 +17,7 @@ import AyaNaka from "../assets/Aya.jpeg";
 import AyaBubble from "../assets/AyaBubble.png";
 import CoinMachine from "../assets/coinMachine.png";
 import "./GamePage.css";
+import Bar from "../assets/bar.png";
 
 const Ribery = {
   name: "Ribéry",
@@ -83,12 +85,31 @@ const Aya = {
   classNameThird: null,
 };
 
+
+
 function GamePage() {
+
+    const [isClicked, setIsClicked] = useState(false);
+    const handleButtonClick = () => {
+      setIsClicked(!isClicked);
+      setTimeout(() => {
+        setIsClicked(false);
+      }, 500);
+    }
+  
+  
   return (
     <>
       <div className="gameContainer">
         <Navbar />
         <img src={CoinMachine} className="coinMachine" />
+        <button
+      type="button"
+      className={`handleBar ${isClicked ? 'clicked' : ''}`}
+      onClick={handleButtonClick}
+    >
+      <img src={Bar} alt="Bar" className="bar" />
+    </button>
       </div>
       <PopUpFinal
         img={Ribery.img}
@@ -128,5 +149,6 @@ function GamePage() {
     </>
   );
 }
+
 
 export default GamePage;

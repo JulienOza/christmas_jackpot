@@ -346,4 +346,6 @@
   background-color: #bc1515;
   border-radius: 200px;
   font-size: 1vw;
+  cursor: pointer;
+  z-index: 2;
 }

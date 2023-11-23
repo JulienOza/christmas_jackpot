@@ -1,6 +1,6 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RoutourneProvider } from "./contexts/RoutourneContext.jsx";
 import App from "./App.jsx";
 import "./index.css";
 import Snow from "./components/Snow/Snow.jsx";
@@ -34,7 +34,7 @@ const router = createBrowserRouter([
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <RoutourneProvider>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </RoutourneProvider>
 );

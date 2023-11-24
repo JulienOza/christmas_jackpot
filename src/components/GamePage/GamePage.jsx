@@ -1,9 +1,9 @@
-import Navbar from "../components/NavBar/Navbar";
+import Navbar from "../NavBar/Navbar";
+import CoinMachine from "../../assets/coinMachine.png";
+import Routourne from "../Routourne";
+import "../GamePage/GamePage.css";
 import { useState } from "react";
-import Routourne from "./Routourne";
-import CoinMachine from "../assets/coinMachine.png";
-import "./GamePage.css";
-import Bar from "../assets/bar.png";
+import Bar from "../../assets/bar.png";
 
 function GamePage() {
   const [isClicked, setIsClicked] = useState(false);
@@ -50,3 +50,4 @@ function GamePage() {
 }
 
 export default GamePage;
+

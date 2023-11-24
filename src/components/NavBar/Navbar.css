@@ -1,7 +1,7 @@
 .mainHeader {
   display: flex;
   background-color: #bc1515;
-  height: 15vh;
+  height: 12vh;
   position: absolute;
   top: 0;
 }
@@ -13,4 +13,23 @@
   color: white;
   font-size: 4vw;
   align-items: center;
+  font-family: "christmas";
+}
+
+.aboutButton {
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  height: 3.5vw;
+  line-height: 3.5vw;
+  width: 10vw;
+  color: black;
+  font-size: 2vw;
+  margin-right: 4rem;
+  cursor: pointer;
+  right: 1vw;
+  top: 1.5vw;
+  z-index: 2;
 }

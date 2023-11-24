@@ -3,14 +3,7 @@ import useRoutourneContext from "../contexts/RoutourneContext";
 import SlotMachine from "react-slot-machine-gen";
 
 function Routourne() {
-  const {
-    reels,
-    popUpDisplay,
-    setPopUpDisplay,
-    index,
-    setIndex,
-    personalities,
-  } = useRoutourneContext();
+  const { reels, popUpDisplay, setPopUpDisplay, index, setIndex, personalities } = useRoutourneContext();
 
   const callback = (symbols) => {
     console.log(symbols);
@@ -24,9 +17,7 @@ function Routourne() {
         <div className="jackpot">
           <SlotMachine reels={reels} callback={callback} />
         </div>
-        {popUpDisplay && index < 7 && (
-          <PopUpFinal personality={personalities[index - 1]} />
-        )}
+        {popUpDisplay && index < 7 && <PopUpFinal personality={personalities[index - 1]} />}
       </>
     )
   );

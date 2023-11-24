@@ -4,11 +4,14 @@ import "./HomePage.css";
 function HomePage() {
   return (
     <div className="welcomeContainer">
-      <h2 className="welcomeTitle">Bienvenue sur le Jackpot de Noël!!!</h2>
+      <h2 className="welcomeTitle">Bienvenue sur Christmas Jackpot !</h2>
       <p className="description">
-
-        Le jackpot de Noël vous permet d'organiser un "secret Santa" en vous
-        attribuant aléatoirement un cadeau à offrir et une personne à qui l'offrir. Cliquez sur le bouton PLAY pour commencer
+        Christmas Jackpot permet d'organiser un "Secret Santa" en vous
+        attribuant au hasard une personne puis une suggestion de cadeau à lui offrir !
+        Cliquez sur le bouton PLAY pour commencer
+      </p>
+      <p className="description">
+        Cliquez sur le bouton PLAY pour commencer
       </p>
       <Link className="playLink" to="/GamePage">
         <img
@@ -16,6 +19,7 @@ function HomePage() {
           alt="Bouton jouer"
           className="playButton"
         />
+        /{" "}
       </Link>
     </div>
   );

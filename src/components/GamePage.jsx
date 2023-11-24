@@ -4,6 +4,7 @@ import Routourne from "./Routourne";
 import CoinMachine from "../assets/coinMachine.png";
 import "./GamePage.css";
 import Bar from "../assets/bar.png";
+import EndPopUp from "./EndPopUp";
 
 function GamePage() {
   const [isClicked, setIsClicked] = useState(false);
@@ -36,15 +37,12 @@ function GamePage() {
       <div className="gameContainer">
         <Navbar />
         <img src={CoinMachine} className="coinMachine" />
-        <button
-          type="button"
-          className={`handleBar ${isClicked ? "clicked" : ""}`}
-          onClick={handleButtonClick}
-        >
+        <button type="button" className={`handleBar ${isClicked ? "clicked" : ""}`} onClick={handleButtonClick}>
           <img src={Bar} alt="Bar" className="bar" />
         </button>
         <Routourne />
       </div>
+      <EndPopUp />
     </>
   );
 }

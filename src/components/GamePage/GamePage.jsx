@@ -1,7 +1,7 @@
 import Navbar from "../NavBar/Navbar";
 import CoinMachine from "../../assets/coinMachine.png";
 import Routourne from "../Routourne";
-import "../GamePage/GamePage.css";
+import "../GamePage/GamePage.scss";
 import { useState } from "react";
 import Bar from "../../assets/bar.png";
 
@@ -35,6 +35,50 @@ function GamePage() {
     <>
       <div className="gameContainer">
         <Navbar />
+        <ul className="lightrope-gamepage">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
         <img src={CoinMachine} className="coinMachine" />
         <button
           type="button"

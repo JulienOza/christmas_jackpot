@@ -1,33 +1,39 @@
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.coinMachine {
+  width: 720px;
+  height: auto;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 
-.cardContainer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left: 0.3%;
-  margin-top: 3%;
+.slot-machine {
+  position: fixed;
+  top: 42%;
+  left: 49.5%;
+  transform: translate(-50%, -50%) scale(0.66);
+  z-index: 0;
 }
 
-.returnButton {
-  position: absolute;
-  border-radius: 200px;
-  background-color: white;
-  width: 4vw;
-  padding-top: 4px;
-  align-items: center;
-  color: black;
-  font-size: 2.5vw;
-  left: 2vw;
-  top: 2vw;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  z-index: 4;
+.mainHeader {
+  position: fixed;
+  top: 0;
+}
+
+.bar {
+  position: fixed;
+  top: 37.5%;
+  left: 66.5%;
+  width: 69px;
+  height: auto;
+  z-index: 2;
+  transition: transform 0.5s ease;
+  transform-origin: bottom;
+}
+
+.handleBar.clicked .bar {
+  transform: rotateX(130deg);
 }
 
 $globe-width: 12px;
@@ -36,10 +42,8 @@ $globe-spacing: 40px;
 $globe-spread: 3px;
 $light-off-opacity: 0.4;
 
-body {
-  background: #000;
-}
-.lightrope {
+
+.lightrope-gamepage {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;

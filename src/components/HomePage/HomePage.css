@@ -12,12 +12,14 @@
 }
 
 .welcomeTitle {
-  margin-top: 25vh;
+  margin-top: 10vh;
+  margin-left: 2vh;
 }
 .description {
   color: white;
   width: 25vw;
   text-align: center;
+  margin-left: 2vh;
 }
 
 .playButton {

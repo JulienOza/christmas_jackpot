@@ -6,6 +6,8 @@ import "./index.css";
 import Snow from "./components/Snow/Snow.jsx";
 import HomePage from "./components/HomePage.jsx";
 import GamePage from "./components/GamePage.jsx";
+import AboutUsPage from "./components/AboutUsPage.jsx";
+import Navbar from "./components/NavBar/Navbar.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,16 @@ const router = createBrowserRouter([
           <>
             <GamePage />
             <Snow />
+          </>
+        ),
+      },
+      {
+        path: "/AboutUs",
+        element: (
+          <>
+            <AboutUsPage />
+            <Snow />
+            <Navbar />
           </>
         ),
       },

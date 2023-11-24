@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import Snow from "./components/Snow/Snow.jsx";
-import HomePage from "./components/HomePage.jsx";
-import GamePage from "./components/GamePage.jsx";
+import HomePage from "./components/HomePage/HomePage.jsx";
+import GamePage from "./components/GamePage/GamePage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,5 +34,5 @@ const router = createBrowserRouter([
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <RouterProvider router={router} />
+  <RouterProvider router={router} />
 );

@@ -12,7 +12,8 @@
 }
 
 .welcomeTitle {
-  margin-top: 25vh;
+  margin-top: 10vh;
+  margin-left: 2vh;
   font-family: "Mountains of Christmas", serif;
   font-size: 2rem;
 }
@@ -20,11 +21,13 @@
   color: white;
   width: 25vw;
   text-align: center;
+  margin-left: 2vh;
 }
 
 .playButton {
   width: 15vw;
   margin-top: -8vh;
+  margin-left: 2vh;
 }
 
 .playLink {

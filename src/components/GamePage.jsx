@@ -36,6 +36,7 @@ function GamePage() {
     <>
       <div className="gameContainer">
         <Navbar />
+        
         <img src={CoinMachine} className="coinMachine" />
         <button type="button" className={`handleBar ${isClicked ? "clicked" : ""}`} onClick={handleButtonClick}>
           <img src={Bar} alt="Bar" className="bar" />

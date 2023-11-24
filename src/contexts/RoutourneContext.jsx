@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 export const RoutourneContext = createContext();
 
 export function RoutourneProvider({ children }) {
-  const personalityOrder = [1, 4, 0, 3, 5, 2];
-  const giftOrder = [3, 0, 1, 5, 4, 2];
+  const personalityOrder = [1, 4, 0, 5, 2, 3];
+  const giftOrder = [3, 0, 1, 4, 2, 5];
   const [index, setIndex] = useState(0);
   const [popUpDisplay, setPopUpDisplay] = useState(false);
   const personalities = [
@@ -40,16 +40,6 @@ export function RoutourneProvider({ children }) {
       classNameThird: null,
     },
     {
-      name: "Ribéry",
-      img: "./src/assets/riberymanchot.png",
-      slogan: "Grâce à toi, la routourne a tourné !",
-      img2: null,
-      img3: "./src/assets/RiberySpeak.png",
-      className: "ribery",
-      classNameBubble: "bubbleRibery",
-      classNameThird: null,
-    },
-    {
       name: "Macron",
       img: "./src/assets/macrongilet.png",
       slogan: "Grâce à toi, Macron manifeste contre le prix de l'essence !",
@@ -67,6 +57,16 @@ export function RoutourneProvider({ children }) {
       img3: "./src/assets/water.png",
       className: "jcvd",
       classNameBubble: "jcvdBubble",
+      classNameThird: null,
+    },
+    {
+      name: "Ribéry",
+      img: "./src/assets/riberymanchot.png",
+      slogan: "Grâce à toi, la routourne a tourné !",
+      img2: null,
+      img3: "./src/assets/RiberySpeak.png",
+      className: "ribery",
+      classNameBubble: "bubbleRibery",
       classNameThird: null,
     },
   ];

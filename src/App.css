@@ -14,4 +14,5 @@ body::before {
 
 body {
   margin: 0;
+  font-family: arial, helvetica, sans-serif;
 }

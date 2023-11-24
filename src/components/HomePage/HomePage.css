@@ -13,6 +13,8 @@
 
 .welcomeTitle {
   margin-top: 25vh;
+  font-family: "Mountains of Christmas", serif;
+  font-size: 2rem;
 }
 .description {
   color: white;

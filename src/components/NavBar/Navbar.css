@@ -14,7 +14,7 @@
   color: white;
   font-size: 4vw;
   align-items: center;
-  font-family: "christmas";
+  font-family: "Mountains of Christmas", serif;
 }
 
 .aboutButton {
@@ -33,4 +33,5 @@
   right: 1vw;
   top: 1.5vw;
   z-index: 2;
+  font-family: "Mountains of Christmas", serif;
 }

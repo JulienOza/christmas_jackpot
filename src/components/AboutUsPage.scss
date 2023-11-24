@@ -11,6 +11,12 @@ body {
   align-items: center;
 }
 
+.cardProfil h2 {
+  font-family: "Mountains of Christmas", serif;
+  font-size: 2rem;
+  margin: 1rem 0 0 0;
+}
+
 .returnButton {
   position: absolute;
   border-radius: 200px;
@@ -25,7 +31,7 @@ body {
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  z-index: 2;
+  z-index: 3;
 }
 
 $globe-width: 12px;
@@ -62,18 +68,21 @@ body {
     margin: $globe-spacing/2;
     display: inline-block;
     background: rgba(0, 247, 165, 1);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 247, 165, 1);
+    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+      rgba(0, 247, 165, 1);
     animation-name: flash-1;
     animation-duration: 2s;
     &:nth-child(2n + 1) {
       background: rgba(0, 255, 255, 1);
-      box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 255, 255, 0.5);
+      box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+        rgba(0, 255, 255, 0.5);
       animation-name: flash-2;
       animation-duration: 0.4s;
     }
     &:nth-child(4n + 2) {
       background: rgba(247, 0, 148, 1);
-      box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(247, 0, 148, 1);
+      box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+        rgba(247, 0, 148, 1);
       animation-name: flash-3;
       animation-duration: 1.1s;
     }
@@ -115,34 +124,38 @@ body {
   0%,
   100% {
     background: rgba(0, 247, 165, 1);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 247, 165, 1);
+    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+      rgba(0, 247, 165, 1);
   }
   50% {
     background: rgba(0, 247, 165, $light-off-opacity);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 247, 165, 0.2);
+    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+      rgba(0, 247, 165, 0.2);
   }
 }
 @keyframes flash-2 {
   0%,
   100% {
     background: rgba(0, 255, 255, 1);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 255, 255, 1);
+    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+      rgba(0, 255, 255, 1);
   }
   50% {
     background: rgba(0, 255, 255, $light-off-opacity);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(0, 255, 255, 0.2);
+    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+      rgba(0, 255, 255, 0.2);
   }
 }
 @keyframes flash-3 {
   0%,
   100% {
     background: rgba(247, 0, 148, 1);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(247, 0, 148, 1);
+    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+      rgba(247, 0, 148, 1);
   }
   50% {
     background: rgba(247, 0, 148, $light-off-opacity);
-    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread rgba(247, 0, 148, 0.2);
+    box-shadow: 0px $globe-height/6 $globe-width * 2 $globe-spread
+      rgba(247, 0, 148, 0.2);
   }
 }
-
-

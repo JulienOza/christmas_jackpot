@@ -15,9 +15,10 @@ margin-left: 7vw
     top: 31%;
     right:38.1%;
     width:5vw;
-
+    z-index: 2;
     transition: transform 0.5s ease; 
     transform-origin: bottom; 
+
   }
   
   .handleBar.clicked .bar {

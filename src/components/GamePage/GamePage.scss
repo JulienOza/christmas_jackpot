@@ -30,6 +30,7 @@
   z-index: 2;
   transition: transform 0.5s ease;
   transform-origin: bottom;
+  cursor: pointer;
 }
 
 .handleBar.clicked .bar {

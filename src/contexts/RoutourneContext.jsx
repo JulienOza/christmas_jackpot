@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 export const RoutourneContext = createContext();
 
 export function RoutourneProvider({ children }) {
-  const personalityOrder = [1, 4, 0, 5, 2, 3];
-  const giftOrder = [3, 0, 1, 4, 2, 5];
+  const personalityOrder = [1, 4, 2, 3, 0, 5];
+  const giftOrder = [3, 0, 2, 5, 1, 4 ];
   const [index, setIndex] = useState(0);
   const [popUpDisplay, setPopUpDisplay] = useState(false);
   const personalities = [
@@ -29,26 +29,7 @@ export function RoutourneProvider({ children }) {
       classNameBubble: "ayaBubble",
       classNameThird: null,
     },
-    {
-      name: "Bolsonaro",
-      img: "./src/assets/bolsonaropop.png",
-      slogan: "Grâce à toi, tes enfants connaitront l'Amazonie",
-      img2: null,
-      img3: "./src/assets/bolsonarobubble.png",
-      className: "bolsonaro",
-      classNameBubble: "bolsonaroBubble",
-      classNameThird: null,
-    },
-    {
-      name: "Macron",
-      img: "./src/assets/macrongilet.png",
-      slogan: "Grâce à toi, Macron manifeste contre le prix de l'essence !",
-      img2: null,
-      img3: "./src/assets/macronbubble.png",
-      className: "macron",
-      classNameBubble: "macronBubble",
-      classNameThird: null,
-    },
+   
     {
       name: "JCVD",
       img: "./src/assets/jcvd.jpg",
@@ -67,6 +48,26 @@ export function RoutourneProvider({ children }) {
       img3: "./src/assets/RiberySpeak.png",
       className: "ribery",
       classNameBubble: "bubbleRibery",
+      classNameThird: null,
+    },
+    {
+      name: "Bolsonaro",
+      img: "./src/assets/bolsonaropop.png",
+      slogan: "Grâce à toi, tes enfants connaitront l'Amazonie",
+      img2: null,
+      img3: "./src/assets/bolsonarobubble.png",
+      className: "bolsonaro",
+      classNameBubble: "bolsonaroBubble",
+      classNameThird: null,
+    },
+    {
+      name: "Macron",
+      img: "./src/assets/macrongilet.png",
+      slogan: "Grâce à toi, Macron manifeste contre le prix de l'essence !",
+      img2: null,
+      img3: "./src/assets/macronbubble.png",
+      className: "macron",
+      classNameBubble: "macronBubble",
       classNameThird: null,
     },
   ];
